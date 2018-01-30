@@ -9,14 +9,14 @@ var compress = 'expanded'; // expanded, nested, compact, compressed
 gulp.task('sass', function(){
    gulp.src('src/scss/**/*.scss')
        .pipe(sass({outputStyle: compress}).on('error', sass.logError))
-       .pipe(concat('niji_theme.css'))
+       .pipe(concat('atomic_theme.css'))
        .pipe(autoprefixer())
        .pipe(gulp.dest('css'))
 });
 
 gulp.task('scripts', function(){
     gulp.src('src/js/**/*.js')
-        .pipe(concat('niji_theme.js'))
+        .pipe(concat('atomic_theme.js'))
         .pipe(gulp.dest('js'))
 });
 

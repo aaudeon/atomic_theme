@@ -1,14 +1,14 @@
 {
-  "name": "niji_theme",
+  "name": "atomic_theme",
   "version": "1.0.0",
-  "description": "Thème niji regroupant les animations et transitions css et js",
+  "description": 'Thème Générique Drupal qui met en place une base d\'integration graphique sur la phylosagie de l\'atomic design',
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git@gitlab.niji.fr:aaudeon/niji_theme.git"
+    "url": "git@github.com:aaudeon/atomic_theme.git"
   },
   "author": "",
   "license": "ISC",

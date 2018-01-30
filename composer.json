@@ -1,7 +1,7 @@
 {
-  "name": "niji_theme",
-  "description": "Thème comportant les animations css et js de base pour les projets web Niji",
+  "name": "atomic_theme",
+  "description": 'Thème Générique Drupal qui met en place une base d\'integration graphique sur la phylosagie de l\'atomic design',
   "type": "drupal-theme",
-  "homepage": "https://gitlab.niji.fr/aaudeon/niji_theme",
+  "homepage": "https://github.com/aaudeon/atomic_theme",
   "version": "1.0"
 }

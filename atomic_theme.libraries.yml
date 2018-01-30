@@ -17,7 +17,7 @@ global-css:
   version: 1.0
   css:
     theme:
-      css/niji_theme.css: {}
+      css/atomic_theme.css: {}
       'https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700,800,900&ver=1506027525': {type: external}
   js:
-    js/niji_theme.js: {}
+    js/atomic_theme.js: {}
