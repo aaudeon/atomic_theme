@@ -1,5 +1,5 @@
 {
-  "name": "atomic_theme",
+  "name": "aaudeon/atomic_theme",
   "version": "1.0.0",
   "description": 'Thème Générique Drupal qui met en place une base d\'integration graphique sur la phylosagie de l\'atomic design',
   "main": "index.js",
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git@github.com:aaudeon/atomic_theme.git"
   },
-  "author": "",
+  "author": "Audeon Alexandre",
   "license": "ISC",
   "devDependencies": {
     "gulp": "^3.9.1",

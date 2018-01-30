@@ -1,7 +1,6 @@
 {
-  "name": "atomic_theme",
+  "name": "aaudeon/atomic_theme",
   "description": 'Thème Générique Drupal qui met en place une base d\'integration graphique sur la phylosagie de l\'atomic design',
   "type": "drupal-theme",
-  "homepage": "https://github.com/aaudeon/atomic_theme",
-  "version": "1.0"
+  "homepage": "https://github.com/aaudeon/atomic_theme"
 }
