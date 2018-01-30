@@ -1,0 +1,7 @@
+{
+  "name": "niji_theme",
+  "description": "Thème comportant les animations css et js de base pour les projets web Niji",
+  "type": "drupal-theme",
+  "homepage": "https://gitlab.niji.fr/aaudeon/niji_theme",
+  "version": "1.0"
+}

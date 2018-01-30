@@ -1,0 +1,16 @@
+.niji-time{
+  display: inline-block;
+  vertical-align: top;
+
+  label{
+    font-family: $primary-font;
+  }
+
+  input[type=text]{
+    display: block;
+    outline: none;
+    padding: 10px 20px;
+    border: none;
+    background-color: $color-primary;
+  }
+}

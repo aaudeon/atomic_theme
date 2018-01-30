@@ -1,0 +1,17 @@
+name: STARTER
+type: theme
+base theme: niji_theme
+description: '...'
+package: Core
+version: 1.0
+core: 8.x
+libraries:
+  - niji_theme/font-awesome
+  - niji_theme/global-css
+
+regions:
+  header: 'Header'
+  content: 'Content'
+  footer: 'Footer'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'

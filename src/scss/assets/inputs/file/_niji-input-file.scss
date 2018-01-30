@@ -1,0 +1,13 @@
+.niji-file, .field--widget-file-generic{
+  display: inline-block;
+  vertical-align: top;
+
+  .btn{
+    display: inline-block;
+    font-family: $primary-font;
+
+    span{
+      display: block;
+    }
+  }
+}

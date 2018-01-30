@@ -1,0 +1,20 @@
+.input-mail, .field--widget-email-default{
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  padding: 10px;
+
+  label{
+    font-family: $primary-font;
+    font-size: 1rem;
+  }
+
+  input[type=email]{
+    display: block;
+    outline: none;
+    padding: 10px 20px;
+    border: none;
+    background-color: $color-primary;
+    width: 100%;
+  }
+}

@@ -1,0 +1,38 @@
+.field--name-field-slider{
+  padding: 40px 0;
+  position: relative;
+}
+
+.slider-img{
+  position: relative;
+  max-width: 900px;
+  height: 350px;
+  overflow: hidden;
+
+  img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    transition: all 0.5s;
+    width: 100%;
+    height: auto;
+  }
+
+  @include animate-scroll(-75%, 0, 500ms, 0ms, 0.5);
+}
+
+.slider-titles{
+  position: absolute;
+  z-index: 20;
+  top: 30%;
+  right: 0;
+  width: 350px;
+  background-color: $color-white;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(170,170,170,0.5);
+
+  @include animate-scroll(200%, 0, 500ms, 0ms, 0);
+}

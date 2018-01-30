@@ -1,0 +1,12 @@
+.niji-range{
+  display: inline-block;
+  vertical-align: top;
+
+  label{
+    font-family: $primary-font;
+  }
+
+  input{
+    display: block;
+  }
+}

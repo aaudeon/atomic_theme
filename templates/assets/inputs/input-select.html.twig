@@ -1,0 +1,35 @@
+{#
+/**
+ * @input
+ * Theme override for a input datePicker
+ *
+ * Available variables:
+ * - idName : ID to bind the label and the input field.
+ * - name: Name to the field.
+ * - value: Defualt value.
+ * - label: The title of the field.
+ * - options: table for the options.
+ *
+ */
+#}
+
+<div class="input-select niji-select">
+
+
+    <label for="{{ idName }}">{{ label }}</label>
+
+        <select name="{{ name }}" id="{{ idName }}">
+
+            {% for option in options %}
+
+                {% include directory~'/templates/components/inputs/input-option.html.twig' with {'value': option, 'insert': option} %}
+
+            {% endfor %}
+
+        </select>
+
+</div>
+
+
+
+

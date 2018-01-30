@@ -1,0 +1,11 @@
+// Region Footer
+
+.region-footer{
+  background-color: $color-dark-gray;
+
+  nav{
+    margin: auto;
+    max-width: $page-max-width;
+    color: $color-white;
+  }
+}

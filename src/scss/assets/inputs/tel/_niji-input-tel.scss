@@ -1,0 +1,17 @@
+.niji-tel{
+  display: inline-block;
+  vertical-align: top;
+
+  label{
+    font-family: $primary-font;
+  }
+
+  input[type=tel]{
+    display: block;
+    outline: none;
+    padding: 10px 20px;
+    border: none;
+    background-color: $color-primary;
+    width: 100%;
+  }
+}

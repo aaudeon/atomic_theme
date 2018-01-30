@@ -1,0 +1,20 @@
+{#
+/**
+ * @input
+ * Theme override for a input textarea
+ *
+ * Available variables:
+ * - idName : ID to bind the label and the input field.
+ * - name: Name to the field.
+ * - label: The title of the field.
+ *
+ */
+#}
+
+<div class="input-field niji-textarea">
+
+    <label for="{{ idName }}" class="animation-label">{{ label }}</label>
+
+    <textarea id="{{ idName }}" name="{{ name }}" class="materialize-textarea field-value"></textarea>
+
+</div>

@@ -1,0 +1,5 @@
+# fichiers et dossiers ignioré par git
+node_modules/
+.idea
+.idea/
+css/*.css

@@ -1,0 +1,14 @@
+// Menu Local Tasks
+
+.block-local-tasks-block{
+  text-align: right;
+
+  li{
+    display: inline-block;
+
+    a{
+      display: block;
+      padding: 10px;
+    }
+  }
+}

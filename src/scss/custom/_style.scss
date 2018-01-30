@@ -1,0 +1,20 @@
+//
+
+.js-animate-scroll{
+  font-size: 0;
+  padding: 50px 0;
+}
+
+.field--type-entity-reference{
+  font-size: 0;
+
+  > div{
+    display: inline-block;
+    width: 23.5%;
+    margin-bottom: 2%;
+
+    &:not(:nth-of-type(4n+0)){
+      margin-right: 2%;
+    }
+  }
+}

@@ -1,0 +1,24 @@
+// Menu Footer
+
+.menu--footer{
+  padding: 30px 0;
+
+  ul{
+    text-align: right;
+  }
+
+  .menu-item{
+    display: inline-block;
+    padding: 5px;
+
+    a{
+      display: block;
+      padding: 5px;
+      color: $color-white;
+
+      &:hover{
+
+      }
+    }
+  }
+}

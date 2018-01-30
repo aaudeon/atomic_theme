@@ -1,0 +1,45 @@
+.link-border{
+  position: relative;
+  width: 100%;
+  cursor: pointer;
+
+  @include animate-bar();
+
+  &:not(:first-child):after{
+
+    content: '';
+    display: block;
+    position: absolute;
+    z-index: 30;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20%;
+    height: 1px;
+    background-color: $color-black;
+  }
+}
+
+.animate-bar-transition{
+    .progress-bar{
+      animation-timing-function: linear;
+      animation-name: transition-bar;
+    }
+
+    .link-border-title a span{
+      font-weight: 700;
+      transition: 0.5s;
+    }
+}
+
+.link-border-title{
+  display: block;
+  text-align: center;
+  padding: 20px 20px;
+  vertical-align: top;
+  font-size: 1.2rem;
+
+  a span{
+    font-weight: 300;
+  }
+}

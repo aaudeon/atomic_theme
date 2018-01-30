@@ -1,0 +1,40 @@
+// Node Default
+
+.node--view-mode-default{
+  min-height: 200px;
+  font-size: 0;
+  margin: auto;
+  width: $page-max-width;
+  padding: 20px 0;
+
+  > div{
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .picture{
+    width: 20%;
+  }
+
+  .content{
+    width: 80%;
+  }
+
+  .field--type-image{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+
+    img{
+      position: absolute;
+      z-index: 10;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      height: 100%;
+      width: auto;
+      max-width: inherit;
+    }
+  }
+}

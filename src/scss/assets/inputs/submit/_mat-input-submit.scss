@@ -1,0 +1,13 @@
+.input-submit{
+
+  button{
+    background-color: $color-secondary;
+    cursor: pointer;
+
+    &:hover{
+      background-color: lighten($color-secondary, 5%);
+      transition: 0.3s;
+    }
+  }
+
+}

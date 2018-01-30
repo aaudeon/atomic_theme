@@ -1,0 +1,14 @@
+.niji-checkbox, .js-form-type-checkbox{
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px;
+
+  label{
+    font-family: $primary-font;
+    font-size: 1rem;
+  }
+
+  input[type=checkbox]{
+    margin-right: 20px;
+  }
+}

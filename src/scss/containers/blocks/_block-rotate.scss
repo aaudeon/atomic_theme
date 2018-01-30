@@ -1,0 +1,27 @@
+// Block Rotate
+
+.block-rotate{
+  display: inline-block;
+  width: 48%;
+  margin: 0.9%;
+  min-height: 445px;
+  text-align: center;
+  box-shadow: 0 10px 50px rgba(0,0,0,0.08);
+  background-color: $color-white;
+  transition: 0.2s;
+
+  h2{
+    margin-bottom: 7px;
+    line-height: 50px;
+  }
+
+  .rotate-img img{
+    max-width: 100%;
+    height: auto;
+  }
+
+  &:hover{
+    background-color: $color-secondary;
+    transition: 0.2s;
+  }
+}

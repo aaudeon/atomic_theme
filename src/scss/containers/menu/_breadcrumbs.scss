@@ -1,0 +1,35 @@
+
+.block-system-breadcrumb-block{
+
+  li{
+    display: inline-block;
+    padding: 10px 20px 10px 10px;
+    position: relative;
+
+  }
+
+  li:not(:last-child){
+
+    &:before{
+      content: '\f105';
+      font-family: FontAwesome;
+      font-size: 20px;
+      color: $color-black;
+      position: absolute;
+      z-index: 10;
+      top: 50%;
+      right: 0;
+      transform: translateY(-50%);
+    }
+  }
+
+  a{
+    text-transform: lowercase;
+
+    &:hover{
+      color: inherit;
+      transition: 0.3s;
+    }
+  }
+
+}

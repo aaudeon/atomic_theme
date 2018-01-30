@@ -1,0 +1,19 @@
+{#
+/**
+ * @link
+ * Theme override for a link containing a icon.
+ *
+ * Available variables:
+ * - url: A link to the file.
+ * - fontawesome: Name to the icon font_awesome "fa-address-book"
+ * - title: The title of the link.
+ *
+ */
+#}
+
+<div class="link-icon">
+    <a href="{{ url }}">
+        <i class="link-icon-img fa {{ fontawesome }}" ></i>
+        <span>{{ title }}</span>
+    </a>
+</div>

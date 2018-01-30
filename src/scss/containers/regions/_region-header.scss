@@ -1,0 +1,15 @@
+// Region Header
+
+header{
+  width: 100%;
+  background-image: linear-gradient(rgba(255,255,255, 0.6) 70%, rgba(255,255,255, 1));
+
+  nav{
+    background-color: $color-primary;
+  }
+
+  .menu{
+    max-width: $page-max-width;
+    margin: auto;
+  }
+}

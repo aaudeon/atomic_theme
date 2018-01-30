@@ -1,0 +1,23 @@
+font-awesome:
+  version: 4.0
+  css:
+    theme:
+      dist/font_awesome/css/font-awesome.min.css: {}
+
+materialize:
+  version: 1.0
+  css:
+    theme:
+      dist/materialize/css/materialize.css: {}
+      'https://fonts.googleapis.com/icon?family=Material+Icons': {type: external}
+  js:
+    dist/materialize/js/materialize.js: {}
+
+global-css:
+  version: 1.0
+  css:
+    theme:
+      css/niji_theme.css: {}
+      'https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700,800,900&ver=1506027525': {type: external}
+  js:
+    js/niji_theme.js: {}

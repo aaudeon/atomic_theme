@@ -1,0 +1,16 @@
+// Views View
+
+.view-the-last-news{
+  margin: auto;
+  width: $page-max-width;
+  font-size: 0;
+
+  .views-row{
+    display: inline-block;
+    width: 32%;
+  }
+
+  .views-row:not(:nth-of-type(3n+0)){
+    margin-right: 2%;
+  }
+}
