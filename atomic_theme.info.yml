@@ -1,7 +1,7 @@
 name: atomic_theme
 type: theme
 base theme: stable
-description: 'Thème Générique Drupal qui met en place une base d\'integration graphique sur la phylosagie de l\'atomic design'
+description: "Thème Générique Drupal qui met en place une base d'integration graphique sur la phylosagie de l'atomic design"
 package: Core
 version: 1.0
 core: 8.x
