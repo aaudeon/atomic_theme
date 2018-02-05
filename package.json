@@ -1,7 +1,7 @@
 {
   "name": "aaudeon/atomic_theme",
   "version": "1.0.0",
-  "description": 'Thème Générique Drupal qui met en place une base d\'integration graphique sur la phylosagie de l\'atomic design',
+  "description": "Thème Générique Drupal qui met en place une base d'integration graphique sur la phylosagie de l'atomic design",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
