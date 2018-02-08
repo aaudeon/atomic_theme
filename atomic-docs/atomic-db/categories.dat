@@ -1,0 +1,14 @@
+[
+    {
+        "category": "jsExample",
+        "order": 2
+    },
+    {
+        "category": "atoms",
+        "order": 2
+    },
+    {
+        "category": "modules",
+        "order": 3
+    }
+]
