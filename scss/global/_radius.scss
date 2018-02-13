@@ -1,0 +1,9 @@
+/* scss/global/_radius.scss */
+
+$radius: 5px;
+$radius-xs: 3px;
+$radius-xl: 10px;
+
+.radius { border-radius: $radius; }
+.radius-xs { border-radius: $radius-xs; }
+.radius-xl { border-radius: $radius-xl; }

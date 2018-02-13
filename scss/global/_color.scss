@@ -1,0 +1,28 @@
+/* scss/global/_color.scss */
+
+$black: #000;
+$white: #fff;
+
+$grey: #8c8c8c;
+$dark-grey: #2a2a2a;
+$light-grey: #edf1f0;
+
+$red: #fa544d;
+
+.bg {
+  &.black { background: $black; }
+  &.white { background: $white; }
+  &.grey { background: $grey; }
+  &.dark-grey { background: $dark-grey; }
+  &.light-grey { background: $light-grey; }
+  &.red { background: $red; }
+}
+
+.t {
+  &.black { color: $black; }
+  &.white { color: $white; }
+  &.grey { color: $grey; }
+  &.dark-grey { color: $dark-grey; }
+  &.light-grey { color: $light-grey; }
+  &.red { color: $red; }
+}

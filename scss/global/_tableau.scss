@@ -1,0 +1,21 @@
+/* scss/global/_tableau.scss */
+
+table {
+    
+    tr {
+        color: $grey;
+        background: $white;
+        
+        th,
+        td { 
+            padding: 3px; 
+            border:1px solid $grey;
+        }
+        
+        th {
+            color: $white;
+            background: $grey;
+        }
+        
+    }
+}
