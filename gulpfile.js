@@ -9,7 +9,7 @@ var compress = 'expanded'; // expanded, nested, compact, compressed
 gulp.task('sass', function(){
    gulp.src('scss/**/*.scss')
        .pipe(sass({outputStyle: compress}).on('error', sass.logError))
-       .pipe(concat('atomic_theme.css'))
+       .pipe(concat('main.css'))
        .pipe(autoprefixer())
        .pipe(gulp.dest('public/css'))
 });
