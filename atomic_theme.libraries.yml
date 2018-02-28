@@ -17,6 +17,6 @@ atomic_theme:
   version: 1.0
   css:
     theme:
-      css/atomic_theme.css: {}
+     public/css/atomic_theme.css: {}
   js:
-    js/atomic_theme.js: {}
+    public/js/atomic_theme.js: {}

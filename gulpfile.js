@@ -7,20 +7,20 @@ var autoprefixer = require('gulp-autoprefixer');
 var compress = 'expanded'; // expanded, nested, compact, compressed
 
 gulp.task('sass', function(){
-   gulp.src('scss/**/*.scss')
+   gulp.src('src/scss/**/*.scss')
        .pipe(sass({outputStyle: compress}).on('error', sass.logError))
-       .pipe(concat('main.css'))
+       .pipe(concat('atomic_theme.css'))
        .pipe(autoprefixer())
        .pipe(gulp.dest('public/css'))
 });
 
 gulp.task('scripts', function(){
-    gulp.src('scripts/**/*.js')
+    gulp.src('src/js/*.js')
         .pipe(concat('atomic_theme.js'))
         .pipe(gulp.dest('public/js'))
 });
 
 gulp.task('watch', function(){
-    gulp.watch('scss/**/*.scss', ['sass']);
-    gulp.watch('scripts/**/*.js', ['scripts']);
+    gulp.watch('src/scss/**/*.scss', ['sass']);
+    gulp.watch('src/js/*.js', ['scripts']);
 });
