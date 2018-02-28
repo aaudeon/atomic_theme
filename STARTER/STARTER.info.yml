@@ -6,8 +6,7 @@ package: Core
 version: 1.0
 core: 8.x
 libraries:
-  - atomic_theme/font-awesome
-  - atomic_theme/global-css
+  - atomic_theme/atomic_theme
 
 regions:
   header: 'Header'
